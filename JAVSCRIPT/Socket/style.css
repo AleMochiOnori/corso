@@ -1,0 +1,17 @@
+html,body{
+    width: 200vh;
+}
+
+#commenti{
+    height: 300px;
+    width: 800px;
+    border: 10px solid rgb(234, 77, 77);
+    border-radius: 50px;
+    margin:0 auto;
+    padding: 20px;
+    overflow-y : auto;
+}
+
+.pu{
+    margin-bottom: 100px;
+}

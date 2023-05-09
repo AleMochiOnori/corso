@@ -1,0 +1,36 @@
+.immagine{
+height: 60px;
+
+}
+.immagine2{
+    height: 60px;
+    transform: scaleX(-1);
+}
+
+.container{
+    display: flex;
+    height: 400px;
+    width: 600px;
+    justify-content: space-between;
+    margin: 0 auto;
+    border: 8px solid rgb(202, 53, 53);
+    align-items: center;
+    margin-top: 20vh;
+    background-image: url("pu.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#batman{
+    height: 30px;
+}
+
+
+.container:hover{
+    -webkit-filter: blur(1px);
+   cursor: pointer;
+   
+
+}
+
+
